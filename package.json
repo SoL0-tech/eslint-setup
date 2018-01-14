@@ -4,5 +4,9 @@
   "description": "This package includes all the dependencies for the eslint plugins I use for Javascript and Typescript development.",
   "main": "index.js",
   "author": "Jared Murphy",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^4.15.0",
+    "eslint-plugin-import": "^2.8.0"
+  }
 }
