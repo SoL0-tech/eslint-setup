@@ -1,0 +1,8 @@
+{
+  "name": "eslint-plugins",
+  "version": "1.0.0",
+  "description": "This package includes all the dependencies for the eslint plugins I use for Javascript and Typescript development.",
+  "main": "index.js",
+  "author": "Jared Murphy",
+  "license": "MIT"
+}
