@@ -6,7 +6,7 @@
         "import"
     ],
     "rules": {
-        "indent": ["error", 4],
+        "indent-legacy": ["error", 4],
         "semi": ["error", "always"],
         "quotes": ["error", "single"],
         "prefer-const": ["error", {
@@ -17,7 +17,7 @@
         "no-var": ["error"],
         "no-new-object": ["error"],
         "object-shorthand": ["error"],
-        "quote-props": ["error"],
+        "quote-props": ["error", "consistent-as-needed"],
         "no-array-constructor": ["error"],
         "array-callback-return": ["error"],
         "prefer-destructuring": ["error"],
@@ -37,7 +37,7 @@
         "arrow-spacing": ["error"],
         "arrow-parens": ["error"],
         "arrow-body-style": ["error"],
-        "no-confusing-arrow": ["error"],
+        "no-confusing-arrow": ["error", {"allowParens": true}],
         "no-useless-constructor": ["error"],
         "no-dupe-class-members": ["error"],
         "no-duplicate-imports": ["error"],
@@ -50,8 +50,6 @@
         "generator-star-spacing": ["error"],
         "dot-notation": ["error"],
         "no-restricted-properties": ["error"],
-        "no-undef": ["error"],
-        "one-var": ["error"],
         "no-multi-assign": ["error"],
         "no-plusplus": ["error"],
         "eqeqeq": ["error"],
@@ -72,16 +70,14 @@
         "padded-blocks": ["error", "never"],
         "space-in-parens": ["error"],
         "array-bracket-spacing": ["error"],
-        "object-curly-spacing": ["error"],
-        "max-len": ["error"],
+        "object-curly-spacing": ["error", "always"],
+        "max-len": ["error", {"code": 120}],
         "comma-style": ["error"],
-        "comma-dangle": ["error"],
+        "comma-dangle": ["error", "always-multiline"],
         "no-new-wrappers": ["error"],
         "radix": ["error"],
-        "id-length": ["error"],
         "camelcase": ["error"],
         "new-cap": ["error"],
-        "no-underscore-dangle": ["error"],
         "no-restricted-globals": ["error"]
     }
 }
